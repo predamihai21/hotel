@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,
      initial-scale=1.0">
+     <meta name="description" content="Welcome to the most visited hotel from Bucharest">
+     <meta name="keywords" content="Hotel,Bucharest Hotel, Romania">
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
      <title>Contact</title>
 </head>
 <body>
-
+    <header>
+        <nav id="navbar">
+           <div class="container">
+              <h1 class="logo"><a href="index.html">ACG Hotel</a></h1>
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a class="current" href="contact.html">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-text">
+                <h1><span class="text-primary">Contact</span> Us</h1>
+                <p>Please fill out the form bellow to contact us</p>
+                <form>
+                    <div class="form-box">
+                        <span class="details">Name</span>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-box">
+                        <span class="details">Email</span>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-box">
+                        <span class="details">Message</span>
+                        <textarea name="textarea" id="textarea"></textarea>
+                    </div>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="adress">
+        <div class="container">
+            <div class="adress-info">
+                <i class="fas fa-hotel"></i>
+                <p>Spl. Independentei nr 290</p>
+            </div>
+            <div class="adress-info" id="adressBack">
+                <i class="fas fa-phone"></i>
+                <p>+4<span> 0734 </span><span> 121</span> <span>221</span></p>
+            </div>
+            <div class="adress-info">
+                <i class="fas fa-envelope"></i>
+                <p>office@hotelbuc.com</p>
+            </div>
+        </div>
+    </section>
+    <footer id="copy">
+        <p>Hotel Buc &copy 2021 All Rights Reserved</p>
+    </footer>
 </body>
 </html>
